@@ -96,7 +96,7 @@ const projects = [
       "Bank Mandiri",
 
     project:
-      "Kopara by Mandiri",
+      "Kopra by Mandiri",
 
     role:
       "Software Quality Assurance Coordinator",
