@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-
 export default function About() {
 
   return (
@@ -15,7 +14,6 @@ export default function About() {
       "
     >
 
-
       <h3
         className="
           text-3xl
@@ -27,8 +25,6 @@ export default function About() {
         About Me
       </h3>
 
-
-
       <div
         className="
           grid
@@ -37,7 +33,6 @@ export default function About() {
           items-center
         "
       >
-
 
         {/* Profile Image */}
 
@@ -59,15 +54,14 @@ export default function About() {
 
           className="
             flex
-            justify-center
-          "
+            justify-center"
         >
 
           <div className="
-  relative
-  w-72
-  h-72
-">
+            relative
+            w-72
+            h-72"
+          >
 
           <div
             className="
@@ -82,7 +76,6 @@ export default function About() {
             "
           />
 
-
           <img
             src="/image/profile.png"
             className="
@@ -92,17 +85,12 @@ export default function About() {
               object-cover
               rounded-full
               border-4
-              border-white/20
-            "
+              border-white/20"
           />
 
         </div>
 
-
         </motion.div>
-
-
-
 
         {/* Description */}
 
@@ -124,26 +112,21 @@ export default function About() {
 
         >
 
-
           <h4
             className="
               text-2xl
               font-bold
-              mb-4
-            "
+              mb-4"
           >
             Hi, I'm Pebrin 👋
           </h4>
-
-
 
           <p
             className="
               text-gray-600
               dark:text-gray-400
               leading-relaxed
-              mb-6
-            "
+              mb-6"
           >
 
             I am a Software Engineer with a strong background in System Integration and Software Quality Assurance, bringing over 4 years of experience in building, testing, and improving enterprise application systems.
@@ -154,27 +137,20 @@ export default function About() {
 
           </p>
 
-
-
-
           <h5
             className="
               font-semibold
-              mb-3
-            "
+              mb-3"
           >
             Tech Stack
           </h5>
-
-
 
           <div
             className="
               flex
               flex-wrap
               gap-3
-              mb-8
-            "
+              mb-8"
           >
 
             {
@@ -197,45 +173,25 @@ export default function About() {
                     rounded-full
                     text-sm
                     bg-black/10
-                    dark:bg-white/20
-                  "
-                >
+                    dark:bg-white/20">
                   {skill}
                 </span>
 
               ))
             }
 
-
           </div>
 
-
-
-
           <a
-            href="/cv.pdf"
-            className="
-              inline-block
-              px-6
-              py-3
-              rounded-xl
-              bg-black
-              text-white
-              dark:bg-white
-              dark:text-black
-              transition
-              hover:scale-105
-            "
-          >
+            href="/new-resume-pebrin-pardede-en.v1.0.pdf"
+            download
+            className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-200 transition">
             Download CV
           </a>
 
-
         </motion.div>
 
-
       </div>
-
 
     </section>
 
